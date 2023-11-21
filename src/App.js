@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addEscrow, setEscrows, updateEscrowApprovalStatus } from './escrowSlice'; // Import your Redux actions
+import { addEscrow, setEscrows, updateEscrowApprovalStatus } from './escrowSlice'; // Import your Redux actionss
 import deploy from './deploy';
 import Escrow from './Escrow';
 import { ethers } from 'ethers';
